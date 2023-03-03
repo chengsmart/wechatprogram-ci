@@ -1,0 +1,41 @@
+{
+
+  "name": "@joymo/wechatprogram-ci",
+  "version": "1.0.1",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "manifest": "cross-env sourceManifest=./__tests__/manifest-config.json destManifest=./manifest.json wechat-ci manifest",
+    "test": "jest"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.0",
+    "babel-jest": "^26.0.0",
+    "colors": "^1.4.0",
+    "cross-env": "^7.0.3",
+    "jest": "^26.0.0",
+    "miniprogram-ci": "^1.2.3"
+  },
+  "peerDependencies": {}, 
+  "keywords": [
+    "ci",
+    "wechat"
+  ],
+  "author": "chengshuai.tj@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chengsmart/wechatprogram-ci.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chengsmart/wechatprogram-ci/issues"
+  },
+  "homepage": "https://github.com/chengsmart/wechatprogram-ci/blob/main/README.md",
+  "license": "MIT",
+  "bin": {
+    "wechat-ci": "bin/wechat-ci.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
