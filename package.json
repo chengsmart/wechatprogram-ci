@@ -1,6 +1,6 @@
 {
 
-  "name": "@joymo/wechatprogram-ci",
+  "name": "wechatprogram-ci",
   "version": "1.0.1",
   "description": "",
   "main": "src/main.js",
